@@ -127,7 +127,7 @@ const about = {
     institutions: [
       {
         name: "BINUS University",
-        description: <>Studied Network Technology.</>,
+        description: <>Relevant Coursework: Algorithm Analysis, Data Structures, Computer Security, Network And System Programming, Network Security Fundamental, Popular Network Technology, Introduction to Cloud.</>,
       },
       {
         name: "Kanaan Global School",
@@ -140,16 +140,35 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Docker",
-        description: <>Able to deploy full-stack apps using Docker.</>,
+        title: "Cloud",
+        description: <>Able to use Azure, K8s and Terraform.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/Docker-app.png",
+            src: "/images/projects/project-01/K8s.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
+          {
+            src: "/images/projects/project-01/Azure.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Docker",
+        description: <>Proficient in using Docker as a tool for deployment.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/Docker-app.png",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
           {
             src: "/images/projects/project-01/Docker-engine.png",
             alt: "Project image",
